@@ -94,9 +94,7 @@ function WishlistView({ products, loading, onClaimProduct, onUnclaimProduct, onG
                   )}
                 </Group>
 
-                <Text size="xl" fw={700} c="blue">
-                  {product.price}
-                </Text>
+                
 
                 {product.claimed ? (
                   <Badge color="green" variant="filled" size="lg">
