@@ -8,7 +8,7 @@ import { notifications } from '@mantine/notifications';
 function AdminView({ products, loading, onAddProduct, onRemoveProduct, onBackToPublic, uploadImage, getImageUrl, onRemoveAll }) {
 const [productUrl, setProductUrl] = useState('');
 const [quantity, setQuantity] = useState(1);
-const [isAdding, setIsAdding] = useState(false);
+const [isAdding] = useState(false);  // if you only read the value
 const [searchQuery, setSearchQuery] = useState('');
 
 // Manual product state

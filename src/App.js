@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { MantineProvider, Modal, TextInput, PasswordInput, Button, Stack, Text, Group } from '@mantine/core';
-import { IconLock, IconAlertCircle, IconEye, IconEyeOff } from '@tabler/icons-react';
+import { MantineProvider, Modal, PasswordInput, Button, Stack, Text, Group } from '@mantine/core';
+import { IconLock, IconAlertCircle } from '@tabler/icons-react';
 import { Notifications } from '@mantine/notifications';
 import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
